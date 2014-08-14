@@ -1,5 +1,4 @@
 #AndroidProguardGuide
----
 
 Android Proguard混淆配置指南
 
@@ -15,7 +14,7 @@ This document describes how to enable and configure ProGuard as well as use the 
 ### Enabling ProGuard
 ---
 
-When you create an Android project, a `proguard.cfg` file is automatically generated in the root directory of the project. This file defines how ProGuard optimizes and obfuscates your code, so it is very important that you understand how to customize it for your needs. The default configuration file only covers general cases, so you most likely have to edit it for your own needs. See the following section about [Configuring ProGuard](#ConfiguringProGuard) for information on customizing the ProGuard configuration file.
+When you create an Android project, a `proguard.cfg` file is automatically generated in the root directory of the project. This file defines how ProGuard optimizes and obfuscates your code, so it is very important that you understand how to customize it for your needs. The default configuration file only covers general cases, so you most likely have to edit it for your own needs. See the following section about [Configuring ProGuard](#configuring-proguard) for information on customizing the ProGuard configuration file.
 
 To enable ProGuard so that it runs as part of an Ant or Eclipse build, set the `proguard.config` property in the `<project_root>/project.properties` file. The path can be an absolute path or a path relative to the project's root.
 
